@@ -1,9 +1,9 @@
-<header>
+<header style="background-color: #fff;!important;">
     <div class="container">
         <div class="logo-and-nav">
             <div class="logo">
                 <a href="{{ route('home') }}">
-                    <img src="{{ \App\Facades\Setting::asset('logo') }}" alt="logo">
+                    <img src="{{asset('images/logo.png') }}" alt="logo">
                 </a>
             </div>
             <nav>

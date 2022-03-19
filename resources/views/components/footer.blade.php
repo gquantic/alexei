@@ -4,7 +4,7 @@
         <div class="container">
             <div class="logo-and-copyright">
                 <a href="{{ route('home') }}" class="logo">
-                    <img src="{{ \App\Facades\Setting::asset('logo') }}" alt="logo">
+                    <img src="{{asset('images/logo.png') }}" alt="logo">
                 </a>
                 <p class="copyright">Description (c) All Right reserved </p>
             </div>
@@ -44,7 +44,7 @@
             </div>
             <div class="phone-and-privacy">
                 <a href="#" class="phone">{{ \App\Facades\Setting::name('phone') }}</a>
-                <a href="" class="privacy">Политика конфедициальности</a>
+                <a href="" class="privacy">Политика конфиденциальности</a>
             </div>
         </div>
     </footer>

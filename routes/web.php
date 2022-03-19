@@ -27,6 +27,13 @@ Route::get('/market',[\App\Http\Controllers\Shop\MarketController::class,'index'
 Route::get('/seller/{seller}/products',[\App\Http\Controllers\Shop\SellerController::class,'products'])
     ->name('seller.products');
 
+
+
+Route::get('/chat', function (){
+  return view('gadjichat');
+});
+
+
 Auth::routes();
 
 Route::middleware('auth')->group(function () {

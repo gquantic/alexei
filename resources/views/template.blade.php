@@ -9,8 +9,9 @@
     <meta property="og:site_name" content="FunLVL"/>
     <meta property="og:description" content="FunLVL"/>
     <link rel="stylesheet" href="{{ asset('css/app.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 </head>
-<body>
+<body style="background-color: #fafafa;!important;">
 <x-header/>
 @yield('main')
 <x-footer/>
